@@ -1,0 +1,16 @@
+
+.demon {
+    display: none;
+}
+.ange{
+    display: block;
+}
+
+@media (orientation: landscape) {
+    .demon {
+        display: block;
+    }
+    .ange{
+        display: none;
+    }
+  }
