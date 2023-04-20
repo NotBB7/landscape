@@ -1,16 +1,34 @@
-
-.demon {
-    display: none;
-}
-.ange{
-    display: block;
+body{
+    margin: auto;
+    padding: auto;
+    height: 99.5Vh;
 }
 
-@media (orientation: landscape) {
-    .demon {
-        display: block;
+
+@media (orientation:landscape){
+    body {
+        background-image: url("../img/demonjpg.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: top;
+        background-size: cover;
+        background-attachment: fixed;
+        border-width: 2px;
+        border-style: solid;
+        border-image: linear-gradient(#D16BA5, #86A8E7, #5FFBF1) 1;
     }
-    .ange{
-        display: none;
+    
+}
+@media (orientation:portrait){
+    body {
+        background-image: url("../img/ange.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: top;
+        background-size: cover;
+        background-attachment: fixed;
+        border-width: 2px;
+        border-style: solid;
+        border-image: linear-gradient(#D16BA5, #86A8E7, #5FFBF1) 1;
     }
-  }
+}
